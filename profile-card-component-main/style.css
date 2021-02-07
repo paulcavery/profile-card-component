@@ -1,0 +1,88 @@
+:root {
+    --gray-blue: hsl(227, 10%, 46%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-top {
+    position: absolute;
+    bottom: 200px;
+    left: -125px;
+}
+.image-bottom {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+.card {
+    position: relative;
+    background: white;
+    height: 400px;
+    border-radius: 15px;
+}
+.card-pattern > img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card-header-image {
+    height: 75px;
+}
+.card-header-image img {
+    width: 115px;
+    margin-left: 35%;
+    position: relative;
+    bottom: 60px;
+    border-radius: 50%;
+    border: 5px solid white
+}
+.card-body {
+    text-align: center;
+}
+h3 span {
+    color: var(--gray-blue);
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.card-body p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.card-body>h4 {
+    margin-top: 20px;
+    color: var(--gray-blue);
+    font-weight: 400;
+    font-size: 18px;
+}
+hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.wrapper {
+    text-align: center;
+    display: inline-block;
+    margin: 10px 25px;
+    font-size: 16px
+}
+div p {
+    font-weight: 400;
+    color:var(--gray-blue);
+
+}
+.attribution {
+    position: absolute;
+    bottom: 0;
+}
+
